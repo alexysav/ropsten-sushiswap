@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: SushiBar
-    network: mainnet
+    network: ropsten
     source:
-      address: '0x8798249c2e607446efb7ad49ec89dd1865ff4272'
+      address: '0xc4345A1Cd43A3eE6db50D91E72167430113b31D1'
       abi: Bar
-      startBlock: 10801571
+      startBlock: 9635008
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
